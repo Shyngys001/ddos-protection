@@ -1,0 +1,9 @@
+Flask
+requests
+python-telegram-bot
+threading
+numpy
+pandas
+scikit-learn
+joblib
+gunicorn

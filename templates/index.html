@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDoS Монитор</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <h2 class="text-center">🚨 DDoS Монитор</h2>
+        
+        <button class="btn btn-primary w-100 my-3" id="scanBtn">🔍 Запустить сканирование</button>
+
+        <h4>📥 Входящие IP-адреса:</h4>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>IP-адрес</th>
+                    <th>Действие</th>
+                </tr>
+            </thead>
+            <tbody id="incomingList">
+                <!-- Входящие IP будут загружаться динамически -->
+            </tbody>
+        </table>
+
+        <h4>🚫 Заблокированные IP:</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>IP-адрес</th>
+                    <th>Действие</th>
+                </tr>
+            </thead>
+            <tbody id="blockedList">
+                <!-- Заблокированные IP будут загружаться динамически -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function loadIPs() {
+            fetch("/get_ips")
+            .then(response => response.json())
+            .then(data => {
+                let incomingList = document.getElementById("incomingList");
+                incomingList.innerHTML = "";
+                data.incoming.forEach(ip => {
+                    let row = `<tr>
+                        <td>${ip}</td>
+                        <td><button class="btn btn-danger btn-sm blockBtn" data-ip="${ip}">🚫 Заблокировать</button></td>
+                    </tr>`;
+                    incomingList.innerHTML += row;
+                });
+
+                let blockedList = document.getElementById("blockedList");
+                blockedList.innerHTML = "";
+                data.blocked.forEach(ip => {
+                    let row = `<tr>
+                        <td>${ip}</td>
+                        <td><button class="btn btn-success btn-sm unblockBtn" data-ip="${ip}">✅ Разблокировать</button></td>
+                    </tr>`;
+                    blockedList.innerHTML += row;
+                });
+
+                addEventListeners();
+            });
+        }
+
+        function addEventListeners() {
+            document.querySelectorAll(".blockBtn").forEach(button => {
+                button.addEventListener("click", function() {
+                    let ip = this.getAttribute("data-ip");
+                    fetch("/block", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ ip: ip })
+                    }).then(() => loadIPs());
+                });
+            });
+
+            document.querySelectorAll(".unblockBtn").forEach(button => {
+                button.addEventListener("click", function() {
+                    let ip = this.getAttribute("data-ip");
+                    fetch("/unblock", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ ip: ip })
+                    }).then(() => loadIPs());
+                });
+            });
+        }
+
+        document.getElementById("scanBtn").addEventListener("click", function() {
+            fetch("/scan")
+            .then(response => response.json())
+            .then(data => {
+                alert(data.status === "attack_detected" ? "DDoS-атака обнаружена!" : "Все чисто.");
+                loadIPs();
+            });
+        });
+
+        setInterval(loadIPs, 5000);
+        loadIPs();
+    </script>
+</body>
+</html>
