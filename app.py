@@ -1,79 +1,98 @@
-import os
 import time
 import logging
-import random
 import threading
 import requests
 from flask import Flask, request, jsonify, abort, render_template
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
+# === Telegram Bot Config ===
 TELEGRAM_BOT_TOKEN = "7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE"
 ADMIN_CHAT_ID = "1050963411"
 
+# === Logging ===
 logging.basicConfig(filename="ddos.log", level=logging.INFO)
 
-ip_requests = {}  # Хранит запросы от IP-адресов
-blocked_ips = set()  # Список заблокированных IP
-attack_logs = []  # Лог атак
+# === Global Variables ===
+ip_requests = {}  # Requests per IP
+blocked_ips = set()  # Blocked IPs
+attack_logs = []  # Attack logs
 
-# 🔥 Настройки защиты
-REQUEST_LIMIT = 5  # Максимум запросов за время
-TIME_WINDOW = 5  # Окно времени (сек)  
-AI_THRESHOLD = 0.2  # Порог ИИ-детекции (случайный блок)
+# === Security Config ===
+REQUEST_LIMIT = 10  # Max requests before blocking
+TIME_WINDOW = 5  # Seconds
 
-# --- Flask ---
 app = Flask(__name__)
 
-# 🔥 Функция отправки уведомлений в Telegram
-def send_telegram_alert(ip, fake=False):
-    """Отправляет уведомление в Telegram о блокировке IP"""
-    attack_type = "ФЕЙКОВАЯ DDoS-атака" if fake else "⚠️ DDoS-атака"
-    message = f"{attack_type}! IP {ip} заблокирован."
+# === Function to send Telegram alerts ===
+def send_telegram_alert(ip, reason):
+    message = f"⚠️ DDoS Alert! IP {ip} заблокирован. Причина: {reason}"
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     payload = {"chat_id": ADMIN_CHAT_ID, "text": message}
-    
     try:
         requests.post(url, json=payload)
-        print(f"✅ Отправлено в Telegram: {message}")
+        print(f"✅ Telegram Alert Sent: {message}")
     except Exception as e:
-        print(f"❌ Ошибка Telegram: {e}")
+        print(f"❌ Telegram Error: {e}")
 
-# 🔥 Определение IP клиента
+# === Get Client IP ===
 def get_client_ip():
-    return request.headers.get("X-Forwarded-For", request.remote_addr) or "unknown"
+    if request.headers.get("X-Forwarded-For"):
+        return request.headers.get("X-Forwarded-For").split(",")[0]  # Берем первый реальный IP
+    return request.remote_addr or "unknown"
 
-@app.route("/fake_attack", methods=["POST"])
-def fake_attack():
-    """Создаёт фейковую DDoS-атаку"""
-    fake_ip = f"{random.randint(1, 255)}.{random.randint(0, 255)}.{random.randint(0, 255)}.{random.randint(0, 255)}"
-    attack_logs.append({"ip": fake_ip, "time": time.ctime(), "fake": True})
-    blocked_ips.add(fake_ip)
-    send_telegram_alert(fake_ip, fake=True)
-    return jsonify({"status": "fake_attack_created", "ip": fake_ip})
+# === DDoS Detection Middleware ===
+@app.before_request
+def detect_ddos():
+    ip = get_client_ip()
+    now = time.time()
+    timestamps = ip_requests.get(ip, [])
+    timestamps.append(now)
+    timestamps = [t for t in timestamps if t >= now - TIME_WINDOW]
+    ip_requests[ip] = timestamps
+
+    if ip in blocked_ips:
+        abort(403)
+
+    if len(timestamps) > REQUEST_LIMIT:
+        blocked_ips.add(ip)
+        attack_logs.append({"ip": ip, "time": time.ctime(now)})
+        logging.info(f"[DDoS] IP {ip} заблокирован за превышение лимита запросов.")
+        threading.Thread(target=send_telegram_alert, args=(ip, "Too many requests"), daemon=True).start()
+        abort(403)
+
+# === Routes ===
+@app.route("/")
+def index():
+    return render_template("index.html", logs=attack_logs, blocked_ips=list(blocked_ips))
+
+@app.route("/scan", methods=["GET"])
+def scan():
+    ip = get_client_ip()
+    now = time.time()
+    timestamps = ip_requests.get(ip, [])
+    timestamps.append(now)
+    ip_requests[ip] = [t for t in timestamps if t >= now - TIME_WINDOW]
+
+    if ip in blocked_ips:
+        return jsonify({"status": "blocked", "ip": ip})
+
+    return jsonify({"status": "clean"})
 
 @app.route("/get_ips", methods=["GET"])
 def get_ips():
-    """Возвращает список реальных и фальшивых атак"""
     return jsonify({
         "incoming": list(ip_requests.keys()),
         "blocked": list(blocked_ips),
         "fake_attacks": attack_logs
     })
 
-@app.route("/")
-def index():
-    """Главная страница с логами атак и управлением блокировкой"""
-    return render_template("index.html", logs=attack_logs, blocked_ips=list(blocked_ips))
-
-# --- Telegram Bot ---
+# === Telegram Bot Handlers ===
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Привет! Я бот для мониторинга DDoS.\n"
-                                    "/blocked - показать заблокированные IP\n"
-                                    "/unblock <IP> - разблокировать IP")
+    await update.message.reply_text("DDoS Monitor Bot\n/blocked - Показать заблокированные IP\n/unblock <IP> - Разблокировать IP")
 
 async def blocked_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    msg = "Заблокированные IP:\n" + "\n".join(blocked_ips) if blocked_ips else "Список пуст."
+    msg = "Заблокированные IP:\n" + "\n".join(blocked_ips) if blocked_ips else "Нет заблокированных IP."
     await update.message.reply_text(msg)
 
 async def unblock_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -88,19 +107,16 @@ async def unblock_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     else:
         await update.message.reply_text("IP не найден в списке блокировки.")
 
-def create_telegram_application():
-    application = ApplicationBuilder().token(TELEGRAM_BOT_TOKEN).build()
-    application.add_handler(CommandHandler("start", start_command))
-    application.add_handler(CommandHandler("blocked", blocked_command))
-    application.add_handler(CommandHandler("unblock", unblock_command))
-    return application
+# === Создание Telegram-бота ===
+app_telegram = ApplicationBuilder().token(TELEGRAM_BOT_TOKEN).build()
+app_telegram.add_handler(CommandHandler("start", start_command))
+app_telegram.add_handler(CommandHandler("blocked", blocked_command))
+app_telegram.add_handler(CommandHandler("unblock", unblock_command))
 
-# --- Запуск ---
-def run_flask():
-    app.run(host="0.0.0.0", port=5000, debug=False, use_reloader=False)
-
+# === Запуск Flask & Telegram Bot ===
 if __name__ == "__main__":
-    flask_thread = threading.Thread(target=run_flask, daemon=True)
-    flask_thread.start()
-    application = create_telegram_application()
-    application.run_polling()
+    threading.Thread(
+        target=lambda: app.run(host="0.0.0.0", port=5000, debug=False, use_reloader=False),
+        daemon=True
+    ).start()
+    app_telegram.run_polling()
