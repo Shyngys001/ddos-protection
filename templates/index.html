@@ -9,7 +9,7 @@
 <body class="bg-light">
     <div class="container mt-5">
         <h2 class="text-center">🚨 DDoS Монитор</h2>
-        
+
         <button class="btn btn-primary w-100 my-3" id="scanBtn">🔍 Запустить сканирование</button>
 
         <h4>📥 Входящие IP-адреса:</h4>
@@ -20,9 +20,7 @@
                     <th>Действие</th>
                 </tr>
             </thead>
-            <tbody id="incomingList">
-                <!-- Входящие IP будут загружаться динамически -->
-            </tbody>
+            <tbody id="incomingList"></tbody>
         </table>
 
         <h4>🚫 Заблокированные IP:</h4>
@@ -33,9 +31,7 @@
                     <th>Действие</th>
                 </tr>
             </thead>
-            <tbody id="blockedList">
-                <!-- Заблокированные IP будут загружаться динамически -->
-            </tbody>
+            <tbody id="blockedList"></tbody>
         </table>
     </div>
 
@@ -93,12 +89,9 @@
         }
 
         document.getElementById("scanBtn").addEventListener("click", function() {
-            fetch("/scan")
+            fetch("/proxy")
             .then(response => response.json())
-            .then(data => {
-                alert(data.status === "attack_detected" ? "DDoS-атака обнаружена!" : "Все чисто.");
-                loadIPs();
-            });
+            .then(() => loadIPs());
         });
 
         setInterval(loadIPs, 5000);

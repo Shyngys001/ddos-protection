@@ -8,7 +8,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # === Telegram Bot Config ===
 TELEGRAM_BOT_TOKEN = "7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE"
-ADMIN_CHAT_ID = "1050963411"
+ADMIN_CHAT_ID = "-4725219233"
 
 # === Logging ===
 logging.basicConfig(filename="ddos.log", level=logging.INFO)

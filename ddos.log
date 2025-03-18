@@ -5553,3 +5553,1908 @@ Traceback (most recent call last):
   File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.207:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:06:20] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:07:20] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:08:20] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.207:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:20] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:25] "GET /proxy HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:25] "GET /proxy HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:25] "GET /proxy HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:26] "GET /proxy HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:26] "GET /proxy HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:27] "GET /proxy HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:27] "GET /proxy HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:27] "GET /proxy HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:28] "GET /proxy HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:28] "GET /proxy HTTP/1.1" 200 -
+INFO:root:[DDoS] IP 127.0.0.1 заблокирован за превышение лимита запросов.
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:28] "[31m[1mGET /proxy HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:28] "[31m[1mGET /proxy HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:28] "[31m[1mGET /proxy HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:28] "[31m[1mGET /proxy HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:09:28] "[31m[1mGET /proxy HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:10:20] "[31m[1mGET /get_ips HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:11:20] "[31m[1mGET /get_ips HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:20] "[31m[1mGET /get_ips HTTP/1.1[0m" 403 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.207:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getMe "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/deleteWebhook "HTTP/1.1 200 OK"
+INFO:telegram.ext.Application:Application started
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:38] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:38] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:38] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:38] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:39] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:39] "GET / HTTP/1.1" 200 -
+INFO:root:[DDoS] IP 127.0.0.1 заблокирован за превышение лимита запросов.
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:39] "[31m[1mGET /get_ips HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:39] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:39] "[31m[1mGET / HTTP/1.1[0m" 403 -
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 200 OK"
+INFO:root:[Bot] IP 127.0.0.1 разблокирован.
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/sendMessage "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:58] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:12:59] "[33mGET /proxy HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:13:01] "[33mPOST /block HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:13:01] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:13:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:13:01] "GET /get_ips HTTP/1.1" 200 -
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:13:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:13:02] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:13:02] "GET / HTTP/1.1" 200 -
+INFO:root:[DDoS] IP 127.0.0.1 заблокирован за превышение лимита запросов.
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:13:02] "[31m[1mGET /get_ips HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:13:03] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.207:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getMe "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/deleteWebhook "HTTP/1.1 200 OK"
+INFO:telegram.ext.Application:Application started
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:26:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:26:56] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:26:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:26:58] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:26:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:26:58] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:26:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:26:58] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:26:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:26:58] "GET /get_ips HTTP/1.1" 200 -
+INFO:root:[DDoS] IP 127.0.0.1 заблокирован за превышение лимита запросов.
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:26:59] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:26:59] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:26:59] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:27:36] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:27:36] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:27:36] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:27:36] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:27:36] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:27:37] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.207:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getMe "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/deleteWebhook "HTTP/1.1 200 OK"
+INFO:telegram.ext.Application:Application started
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:28:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:28:00] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:28:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:28:00] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:28:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:28:00] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:28:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:28:00] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:28:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:28:01] "GET /get_ips HTTP/1.1" 200 -
+INFO:root:[DDoS] IP 127.0.0.1 заблокирован за превышение лимита запросов.
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:28:01] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:28:01] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:28:01] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:28:01] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 03:29:00] "[31m[1mGET /get_ips HTTP/1.1[0m" 403 -
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 409 Conflict"
+ERROR:telegram.ext.Application:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_updater.py", line 376, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 658, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 4605, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
