@@ -9,19 +9,19 @@ import json
 
 # === Telegram Bot Config ===
 TELEGRAM_BOT_TOKEN = "7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE"
-ADMIN_CHAT_ID = "-4725219233"
+ADMIN_CHAT_ID = "-1002504369770"
 
 # === Logging ===
 logging.basicConfig(filename="ddos.log", level=logging.INFO)
 
 # === Global Variables ===
-ip_requests = {}  # Requests per IP
-blocked_ips = set()  # Blocked IPs
-attack_logs = []  # Attack logs
+ip_requests = {}  
+blocked_ips = set()
+attack_logs = [] 
 
 # === Security Config ===
-REQUEST_LIMIT = 10  # Max requests before blocking
-TIME_WINDOW = 5  # Seconds
+REQUEST_LIMIT = 10 
+TIME_WINDOW = 5 
 
 app = Flask(__name__)
 
