@@ -7458,3 +7458,33 @@ Traceback (most recent call last):
   File "/Users/gulmaral/Desktop/informatics/face_chat_app/venv/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 385, in _request_wrapper
     raise Conflict(message)
 telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.207:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getMe "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/deleteWebhook "HTTP/1.1 200 OK"
+INFO:telegram.ext.Application:Application started
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 200 OK"
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:00] "GET /scan HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:04] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:06] "[33mGET /proxy HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:06] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:07] "[33mGET /proxy HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:07] "GET /get_ips HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:07] "[33mGET /proxy HTTP/1.1[0m" 404 -
+INFO:root:[DDoS] IP 127.0.0.1 заблокирован за превышение лимита запросов.
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:07] "[31m[1mGET /get_ips HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:07] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:07] "[31m[1mGET /proxy HTTP/1.1[0m" 403 -
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 200 OK"
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2025 16:20:09] "[31m[1mGET / HTTP/1.1[0m" 403 -
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE/getUpdates "HTTP/1.1 200 OK"
