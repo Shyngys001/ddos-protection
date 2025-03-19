@@ -5,10 +5,11 @@ import requests
 from flask import Flask, request, jsonify, abort, render_template
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
+import json
 
 # === Telegram Bot Config ===
 TELEGRAM_BOT_TOKEN = "7818122772:AAEYZgEmdLxrNWpBHchD84vuhsbQ9JMnUgE"
-ADMIN_CHAT_ID = "-4725219233"
+ADMIN_CHAT_ID = "1050963411"
 
 # === Logging ===
 logging.basicConfig(filename="ddos.log", level=logging.INFO)
@@ -28,12 +29,26 @@ app = Flask(__name__)
 def send_telegram_alert(ip, reason):
     message = f"⚠️ DDoS Alert! IP {ip} заблокирован. Причина: {reason}"
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    payload = {"chat_id": ADMIN_CHAT_ID, "text": message}
+    payload = {
+        "chat_id": ADMIN_CHAT_ID,
+        "text": message,
+        "parse_mode": "HTML"  # Позволяет делать текст жирным, курсивом и т. д.
+    }
+    headers = {"Content-Type": "application/json"}
+
     try:
-        requests.post(url, json=payload)
-        print(f"✅ Telegram Alert Sent: {message}")
+        response = requests.post(url, headers=headers, data=json.dumps(payload), timeout=5)
+        result = response.json()  # Получаем JSON-ответ
+
+        print(f"📨 Telegram API Response: {result}")  # Логируем ответ от API
+
+        if not result.get("ok"):
+            print(f"❌ Ошибка при отправке: {result.get('description', 'Unknown error')}")
+    
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Ошибка сети или тайм-аута при отправке в Telegram: {e}")
     except Exception as e:
-        print(f"❌ Telegram Error: {e}")
+        print(f"❌ Ошибка при обработке ответа Telegram: {e}")
 
 # === Get Client IP ===
 def get_client_ip():
